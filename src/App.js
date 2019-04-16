@@ -12,7 +12,6 @@ class App extends Component {
   }
 
   updateState(){
-    console.log('got here')
     this.setState({text: 'You have clicked me'})
     this.setState(prevState =>({
       counter: prevState.counter+1
